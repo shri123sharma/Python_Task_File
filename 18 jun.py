@@ -1,28 +1,28 @@
-def get_sequence(l2):
-     from functools import reduce
+# def get_sequence(l2):
+#      from functools import reduce
 
-     l2=[6,8,7,9, 1112, 1113, 100,101, 102,100, 1001, 1002, 1003, 1111,10]
-     l1 = l2.copy()
-     l1.sort()
-     li1=[]
-    #  import pdb;pdb.set_trace()
-     for i in l1:
-         li = []
-         single_list = []
-         if li1 != []:
-             single_list += reduce(lambda x,y: x+y, li1)
-         if i not in li1 and i not in single_list:
-             if (i not in data for data in li1):
-                 for jn in l1[1:]:       
-                     if i not in li:
-                         li.append(i)
-                     next_item = li[-1]+1
-                     if jn ==  next_item and jn-1 == li[-1] :
-                         li.append(next_item)
-                     else:continue
-                 li1.append(li)
-     return li1
-print(get_sequence([6,7,8,51, 52,1,2,11 ,12, 13, 50,  53]))
+#      l2=[6,8,7,9, 1112, 1113, 100,101, 102,100, 1001, 1002, 1003, 1111,10]
+#      l1 = l2.copy()
+#      l1.sort()
+#      li1=[]
+#     #  import pdb;pdb.set_trace()
+#      for i in l1:
+#          li = []
+#          single_list = []
+#          if li1 != []:
+#              single_list += reduce(lambda x,y: x+y, li1)
+#          if i not in li1 and i not in single_list:
+#              if (i not in data for data in li1):
+#                  for jn in l1[1:]:       
+#                      if i not in li:
+#                          li.append(i)
+#                      next_item = li[-1]+1
+#                      if jn ==  next_item and jn-1 == li[-1] :
+#                          li.append(next_item)
+#                      else:continue
+#                  li1.append(li)
+#      return li1
+# print(get_sequence([6,7,8,51, 52,1,2,11 ,12, 13, 50,  53]))
 
 
 # l1=[6,7,8,1,2,3,9,10,11]
