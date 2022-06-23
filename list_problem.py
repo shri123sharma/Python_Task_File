@@ -306,15 +306,15 @@ print(ls_3)
 #     tp1.append(l2)
 # print(tp1)
 
-# l1=[("Amana", 28), ("Zenat", 30), ("Abhishek", 29), ("Nikhil", 21), ("B", "C")]
-# # op=[('Amana', 28), ('Abhishek', 29), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)
+l1=[("Amana", 28), ("Zenat", 30), ("Abhishek", 29), ("Nikhil", 21), ("B", "C")]
+# op=[('Amana', 28), ('Abhishek', 29), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)
 
-# for i in range(0,len(l1)):
-#     for j in range(i+1,len(l1)):
-#         if l1[i][0]>l1[j][0]:
-#             l1[i],l1[j]=l1[j],l1[i]
+for i in range(0,len(l1)):
+    for j in range(i+1,len(l1)):
+        if l1[i][0]>l1[j][0]:
+            l1[i],l1[j]=l1[j],l1[i]
         
-# print(l1)
+print(l1)
 
 # s1="ddkasmasakjska"
 # ls1=list(s1)
@@ -362,10 +362,10 @@ print(ls2)
 #     else:
 #         print(i)
 
-import itertools
-l1=[10,20,30,40,50]
-for i in itertools.combinations(l1,2):
-    print(i)
+# import itertools
+# l1=[10,20,30,40,50]
+# for i in itertools.combinations(l1,2):
+#     print(i)
 
 
 

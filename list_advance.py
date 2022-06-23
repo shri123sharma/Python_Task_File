@@ -131,6 +131,3 @@ l1=[1, 2, 3]
 # print(res)
 # print(type==int)
 
-    
-
-

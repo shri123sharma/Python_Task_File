@@ -98,26 +98,5 @@
 # c = map(lambda x,y:(x,y),a,b)
 # print(type(c))
 
-N = int(input())
-e=int(input())
-ls_1=[]
-# import pdb;pdb.set_trace()
-for i in range(1,N+1):
-    
-    if i<=N or i=="insert":
-        ls_1.insert(e,i)
-    if i<=N or i=="print":
-        print(ls_1)   
-    if i<=N or i=="remove":
-        ls_1.remove(i)
-    if i<=N or i=="append":
-        ls_1.append(e)
-    if i<=N or i=="sort":
-        ls_1.sort()
-    if i<=N or i=="pop":
-        ls_1.pop()
-    if i<=N or i=="reverse":
-        ls_1.reverse()
-    else:
-        pass
+
         
