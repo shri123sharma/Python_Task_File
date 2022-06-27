@@ -50,10 +50,10 @@
 #         # print(do_something())
 #         pass
 
-# l1=[6,7,8,9,1,2,3,4,9,10,11]
-# l2=l1.copy()
-# l3=[[l1[i],l1[i+1],l1[i+2]] for i in range(0,len(l1)-2)]
-# print(l3)
+l1=[6,7,8,9,1,2,3,4,9,10,11]
+l2=l1.copy()
+l3=[[l1[i],l1[i+1],l1[i+2]] for i in range(0,len(l1)-2)]
+print(l3)
 
 # l1=[6,7,1,2]
 # l1.sort()
