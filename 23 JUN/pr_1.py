@@ -15,18 +15,11 @@
 # # t1=tuple((l1[i],l2[0]))
 # # print(t1)
 
-def xl():
-    return ([10,20,39])
+# def xl():
+#     return ([10,20,39])
 
-for i in xl():
-    print(i)
-    print("ok")
+# for i in xl():
+#     print(i)
+#     print("ok")
     
-        
-
-
-
-
-        
    
-    
